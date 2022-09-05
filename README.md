@@ -1,6 +1,6 @@
 # GeneSetPRS
-**GENE SET POLYGENIC RISK SCORING**
-Exploring the use of enriched gene set polygenic risk scores and machine learning for the prediction of human height
+**GENE SET POLYGENIC RISK SCORING** <br />
+Exploring the use of enriched gene set polygenic risk scores and machine learning for the prediction of human height <br />
 
 **RUNNING THE CODE** <br />
 <br />
