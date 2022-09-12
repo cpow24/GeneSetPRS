@@ -1,6 +1,6 @@
 #Based on code from https://choishingwan.github.io/PRS-Tutorial/
 
-#Seting working directory
+#Setting working directory
 setwd('ENTER DIRECTORY PATH')
 
 #Loading required packages
