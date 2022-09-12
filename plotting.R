@@ -1,4 +1,4 @@
-#Seting working directory
+#Setting working directory
 setwd('ENTER DIRECTORY PATH')
 
 #Loading required packages
