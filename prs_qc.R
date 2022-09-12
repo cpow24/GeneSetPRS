@@ -295,3 +295,7 @@ write.table(x=test_ids_df,file=c("test_ids.txt"),sep=" ",quote = F,col.names = F
 #Final quality controlled files
 system(paste ("plink --bfile target_combined --keep train_ids.txt --make-bed --out  target_train.QC",sep=" "))
 system(paste ("plink --bfile target_combined --keep test_ids.txt --make-bed --out  target_test.QC",sep=" "))
+
+#Create files containing just Chromosomes 1-22
+system(paste ("plink --bfile target_train.QC --chr 1-22 --make-bed --out target_train.QC_final",sep=" "))
+system(paste ("plink --bfile target_test.QC --chr 1-22 --make-bed --out target_test.QC_final",sep=" "))
