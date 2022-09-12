@@ -10,3 +10,19 @@ Exploring the use of enriched gene set polygenic risk scores and machine learnin
 <br />
 **3 -** Run the quality control file - 'prs_qc.R' <br />
 <br />
+**4 -** Run the clumping and thresholding file - 'clump_thresh.R' <br />
+<br />
+**5 -** Run the LDpred2 and Lassosum file - 'ldpred2_lassosum.R' <br />
+<br />
+**6 -** Generate gene set scores using 'gene_set_creation.R' <br />
+<br />
+**7 -** Create necessary gene set files using 'create_gene_set_files.R' <br />
+<br />
+**8 -** Run the first phase of experiments - 'experiments_1.R' <br />
+<br />
+**9 -** Run the second stage of experiments - 'experiments_2.ipynb' <br />
+<br />
+**10 -** Perform the statistical significance testing - 'williams_test.R' <br />
+<br />
+**11 -** Generate plots - 'plotting.R' <br />
+<br />
